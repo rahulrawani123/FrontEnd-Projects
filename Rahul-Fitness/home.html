@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rahul-Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/gym3.jpg');
+        background-size:2000px 800px;
+        background-repeat:no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 40px;
+        top: 20px;
+    }
+    .left div{
+        text-align:center;
+        color:white;
+    }
+    .left img{
+        width:70px;
+        height:70px;
+       
+    }
+    
+   
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+        color:black;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .right button{
+        background:black;
+        color:white;
+        font-size:15px;
+    }
+
+    .navbar{
+        display:inline-block;
+       
+    }
+    
+    .navbar li{
+        display:inline-block;
+        padding-right:10px;
+        text-decoration:none;
+        font-size:25px;
+    }
+    
+    .navbar li a{
+        
+        text-decoration:none;
+        color:white;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    
+    .navbar li a:hover, .navbar li a:active{
+        color:red;
+    }
+    .right  button:hover{
+        color:red;
+    }
+   
+    .container{
+        border: 3px solid white;
+        border-radius: 20px;
+        display: inline-block;
+        width: 40%;
+        position: absolute;
+        left: 95px;
+        top: 180px;
+        padding: 0px 20px 30px 20px;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    
+    .container button {
+        display: block;
+        background:black;
+        color:white;
+        width: 37%;
+        
+        margin: 20px auto;
+    }
+    .container h1 {
+        text-align:center;
+        color:yellow;
+        font-family: 'Baloo Bhai', cursive;
+    }
+   
+    
+
+   
+
+
+</style>
+
+<body>
+    <div class="left">
+        <img src="image/dog.png" alt="" >
+        <div>Rahul-Fitness</div>
+    </div>
+
+
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About-Us</li>
+                <li><a href="">Fitness-Calculator</li>
+                <li><a href="">Contact-Us</li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button value="button" >Call Us Now</button>
+            <button value="button">Email Us</button>
+        </div>
+
+        <div class="container">
+            <h1>Join the best gym of Jharkhand now</h1>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+   
+    
+</body>
+
+</html>
