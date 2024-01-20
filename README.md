@@ -1,4 +1,4 @@
 # FrontEnd-Projects
 
-PROJECT 1 :- (GYM)
+PROJECT 1 :-  (GYM)
 
